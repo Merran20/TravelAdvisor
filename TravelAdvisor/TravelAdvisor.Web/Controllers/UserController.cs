@@ -46,8 +46,6 @@ namespace TravelAdvisor.Web.Controllers
             var item = await _userService.GetAll();
             return Ok(item);
 
-
-
         }
 
         [HttpGet("GetList")]
